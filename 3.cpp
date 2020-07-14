@@ -4,9 +4,9 @@ int main()
 {
 int n;
 cin>>n;
-for(int i=1;i*i<n;i++)
+for(int i=2;i*i<=n;i++)
 {
-	if(n*i==0)
+	if(n%i==0)
 	{
 		cout<<"No the number is not Prime";
 		return 0;
